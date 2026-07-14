@@ -29,12 +29,41 @@ This project demonstrates object-oriented programming, JSON parsing, file handli
 - Makefile          // Compiles the project
 
 ## How It Works
-- The program uses curl to download trivia questions from the Open Trivia Database API.
-- The JSON response is saved to a local file.
-- The Quiz class reads the JSON file and creates Question objects.
-- Each question is presented with randomized answer choices.
-- The user selects an answer.
-- The program reports whether the answer is correct and displays the correct answer if necessary.
-- After all questions have been answered, the program displays the final score and asks whether the user would like to play again.
+1. The program uses curl to download trivia questions from the Open Trivia Database API.
+2. The JSON response is saved to a local file.
+3. The Quiz class reads the JSON file and creates Question objects.
+4. Each question is presented with randomized answer choices.
+5. The user selects an answer.
+6. The program reports whether the answer is correct and displays the correct answer if necessary.
+7. After all questions have been answered, the program displays the final score and asks whether the user would like to play again.
+
+## Example Output
+1. What is the capital of France?
+
+1) Berlin
+2) Paris
+3) Madrid
+4) Rome
+
+Your answer: 2
+
+Correct
+
+2. Which planet is known as the Red Planet?
+
+1) Earth
+2) Venus
+3) Mars
+4) Jupiter
+
+Your answer: 4
+
+Wrong
+Correct answer: Mars
+
+Quiz Results
+Correct: 1
+Wrong: 1
+Total Questions: 2
 
 
